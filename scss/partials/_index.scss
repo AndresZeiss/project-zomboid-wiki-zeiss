@@ -1,0 +1,24 @@
+.fexindx {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    &_video{
+        display: flex;
+        width: 560px;
+        height: 315px;
+    }
+    &_tex {
+        display: flex;
+        color: black;
+        width: 560px;
+        height: 315px;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+}
