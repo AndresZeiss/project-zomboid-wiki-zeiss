@@ -1,5 +1,5 @@
 {
-  "name": "proyect-zomboid-wiki__-zeiss",
+  "name": "proyect-zomboid-wiki-zeiss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,20 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/estilis.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndresZeiss/proyect-zomboid-wiki-Zeiss.git"
+    "url": "git+https://github.com/AndresZeiss/project-zomboid-wiki-zeiss.git"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndresZeiss/proyect-zomboid-wiki-Zeiss/issues"
+    "url": "https://github.com/AndresZeiss/project-zomboid-wiki-zeiss/issues"
   },
-  "homepage": "https://github.com/AndresZeiss/proyect-zomboid-wiki-Zeiss#readme",
-  "dependencies": {
+  "homepage": "https://github.com/AndresZeiss/project-zomboid-wiki-zeiss#readme",
+  "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
   }
