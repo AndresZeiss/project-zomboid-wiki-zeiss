@@ -37,7 +37,7 @@
     .titulo {
         text-align: center;
         color: black;
-        font-size: 18px;
+        font-size: 20px;
     }
     .fexindx {
     display: flex;
@@ -50,5 +50,10 @@
     }
     .fexindx_tex{
     font-size: 16px;
+    height: 100%;
+    width: 100%;
+    }
+    .footer {
+        justify-content: flex-start;
     }
 }
